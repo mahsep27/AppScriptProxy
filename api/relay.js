@@ -1,6 +1,6 @@
 export default async function handler(req, res) {
   try {
-    const googleWebhook = "https://script.google.com/macros/s/AKfycbxAyK_GrG1PcDCmLd0iSPXdfP8yZ3recDglzo9MKQCqw2PRA-_N6QZJXHPX_oiDD7OmVg/exec";
+    const googleWebhook = "https://script.google.com/macros/s/AKfycbyoywL37b0froqEwffIqjQ04-DO6lm2wJufy2oOkBwU9wbGlNir6OsLwOo88xum3w4e3g/exec";
 
     const response = await fetch(googleWebhook, {
       method: "POST",
